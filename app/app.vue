@@ -36,16 +36,16 @@ const accept = () => {
   isAccepted.value = true
 }
 
-// Cleaned up URLs
-const beggingGif = 'https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExbmZyeHJ4Z3dzZ3dzZ3dzZ3dzZ3dzZ3dzZ3dzZ3dzZ3dzZ3dzZ3ZSZ3dzZ3ZyZSZ3dzZ3ZyZSZ3dzZ3ZyZSZ3dzZ3ZyZSZ3dzZ3ZyZSZ3dzZ3ZyZSZ3dzZ3ZyZSZ3dzZ3ZyZSZ3dzZ3ZyZSZ3dzZ3ZyZSZ3dzZ3ZyZSZ3dzZ3ZyZSZ3dzZ3ZyZSZ3dzZ3ZyZSZ3dzZ3ZyZSZ3dzZ3ZyZSZ3dzZ3ZyZSZ3dzZ3ZyZSZ3dzZ3ZyZSZ3dzZ3ZyZSZ3dzZ3ZyZSZ3dzZ3ZyZSZ3dzZ3ZyZSZ3dzZ3ZyZSZ3dzZ3ZyZSZ3dzZ3ZyZSZ3dzZ3ZyZSZ3dzZ3ZyZSZ3dzZ3ZyZSZ3dzZ3ZyZSZ3dzZ3ZyZSZ3dzZ3ZyZSZ3dzZ3ZyZSZ3dzZ3ZyZSZ3dzZ3ZyZSZ3dzZ3ZyZSZ3dzZ3ZyZSZ3dzZ3ZyZSZ3dzZ3ZyZSZ3dzZ3ZyZSZ3dzZ3ZyZSZ3dzZ3ZyZSZ3dzZ3ZyZSZ3dzZ3ZyZSZ3dzZ3ZyZSZ3dzZ3ZyZSZ3dzZ3ZyZSZ3dzZ3ZyZSZ3dzZ3ZyZSZ3dzZ3ZyZSZ3dzZ3ZyZSZ3dzZ3ZyZSZ3dzZ3ZyZSZ3dzZ3ZyZSZ3dzZ3ZyZSZ3dzZ3ZyZSZ3dzZ3ZyZSZ3dzZ3ZyZSZ3dzZ3ZyZSZ3dzZ3ZyZSZ3dzZ3ZyZSZ3dzZ3ZyZSZ3dzZ3ZyZSZ3dzZ3ZyZSZ3dzZ3ZyZSZ3dzZ3ZyZSZ3dzZ3ZyZSZ3dzZ3ZyZSZ3dzZ3ZyZSZ3dzZ3ZyZSZ3dzZ3ZyZSZ3dzZ3ZyZSZ3dzZ3ZyZSZ3dzZ3ZyZSZ3dzZ3ZyZSZ3dzZ3ZyZSZ3dzZ3ZyZSZ3dzZ3ZyZSZ3dzZ3ZyZSZ3dzZ3ZyZSZ3dzZ3ZyZSZ3dzZ3ZyZSZ1pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/i6U9KY2vbeY67fW9T8/giphy.gif'
-const celebrateGif = 'https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExNHpueG56Z3dzZ3dzZ3dzZ3dzZ3dzZ3dzZ3dzZ3dzZ3dzZ3dzZ3ZSZ3dzZ3ZyZSZ3dzZ3ZyZSZ3dzZ3ZyZSZ3dzZ3ZyZSZ3dzZ3ZyZSZ3dzZ3ZyZSZ3dzZ3ZyZSZ3dzZ3ZyZSZ3dzZ3ZyZSZ3dzZ3ZyZSZ3dzZ3ZyZSZ3dzZ3ZyZSZ3dzZ3ZyZSZ3dzZ3ZyZSZ3dzZ3ZyZSZ3dzZ3ZyZSZ3dzZ3ZyZSZ3dzZ3ZyZSZ3dzZ3ZyZSZ3dzZ3ZyZSZ3dzZ3ZyZSZ3dzZ3ZyZSZ3dzZ3ZyZSZ3dzZ3ZyZSZ3dzZ3ZyZSZ3dzZ3ZyZSZ3dzZ3ZyZSZ3dzZ3ZyZSZ3dzZ3ZyZSZ3dzZ3ZyZSZ3dzZ3ZyZSZ3dzZ3ZyZSZ3dzZ3ZyZSZ3dzZ3ZyZSZ3dzZ3ZyZSZ3dzZ3ZyZSZ3dzZ3ZyZSZ3dzZ3ZyZSZ3dzZ3ZyZSZ3dzZ3ZyZSZ3dzZ3ZyZSZ3dzZ3ZyZSZ3dzZ3ZyZSZ3dzZ3ZyZSZ3dzZ3ZyZSZ3dzZ3ZyZSZ3dzZ3ZyZSZ3dzZ3ZyZSZ3dzZ3ZyZSZ3dzZ3ZyZSZ3dzZ3ZyZSZ3dzZ3ZyZSZ3dzZ3ZyZSZ3dzZ3ZyZSZ3dzZ3ZyZSZ3dzZ3ZyZSZ3dzZ3ZyZSZ3dzZ3ZyZSZ3dzZ3ZyZSZ3dzZ3ZyZSZ3dzZ3ZyZSZ3dzZ3ZyZSZ3dzZ3ZyZSZ3dzZ3ZyZSZ3dzZ3ZyZSZ3dzZ3ZyZSZ3dzZ3ZyZSZ3dzZ3ZyZSZ3dzZ3ZyZSZ3dzZ3ZyZSZ3dzZ3ZyZSZ3dzZ3ZyZSZ3dzZ3ZyZSZ3dzZ3ZyZSZ3dzZ3ZyZSZ3dzZ3ZyZSZ3dzZ3ZyZSZ3dzZ3ZyZSZ3dzZ3ZyZSZ3dzZ3ZyZSZ3dzZ3ZyZSZ3dzZ3ZyZSZ1pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/LMcAtvIgeLtoLpP7O1/giphy.gif'
+// Stable direct GIF links
+const beggingGif = 'https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExbmZyeHJ4Z3dzZ3dzZ3dzZ3dzZ3dzZ3dzZ3dzZ3dzZ3dzZ3dzZ3ZSZ3dzZ3ZyZSZ3dzZ3ZyZSZ3dzZ3ZyZSZ3dzZ3ZyZSZ3dzZ3ZyZSZ3dzZ3ZyZSZ3dzZ3ZyZSZ3dzZ3ZyZSZ3dzZ3ZyZSZ3dzZ3ZyZSZ3dzZ3ZyZSZ3dzZ3ZyZSZ3dzZ3ZyZSZ3dzZ3ZyZSZ3dzZ3ZyZSZ3dzZ3ZyZSZ3dzZ3ZyZSZ3dzZ3ZyZSZ3dzZ3ZyZSZ3dzZ3ZyZSZ3dzZ3ZyZSZ3dzZ3ZyZSZ3dzZ3ZyZSZ3dzZ3ZyZSZ3dzZ3ZyZSZ3dzZ3ZyZSZ3dzZ3ZyZSZ3dzZ3ZyZSZ3dzZ3ZyZSZ3dzZ3ZyZSZ3dzZ3ZyZSZ3dzZ3ZyZSZ3dzZ3ZyZSZ3dzZ3ZyZSZ3dzZ3ZyZSZ3dzZ3ZyZSZ3dzZ3ZyZSZ3dzZ3ZyZSZ3dzZ3ZyZSZ3dzZ3ZyZSZ3dzZ3ZyZSZ3dzZ3ZyZSZ3dzZ3ZyZSZ3dzZ3ZyZSZ3dzZ3ZyZSZ3dzZ3ZyZSZ3dzZ3ZyZSZ3dzZ3ZyZSZ3dzZ3ZyZSZ3dzZ3ZyZSZ3dzZ3ZyZSZ3dzZ3ZyZSZ3dzZ3ZyZSZ3dzZ3ZyZSZ3dzZ3ZyZSZ3dzZ3ZyZSZ3dzZ3ZyZSZ3dzZ3ZyZSZ3dzZ3ZyZSZ3dzZ3ZyZSZ3dzZ3ZyZSZ3dzZ3ZyZSZ3dzZ3ZyZSZ3dzZ3ZyZSZ3dzZ3ZyZSZ3dzZ3ZyZSZ3dzZ3ZyZSZ3dzZ3ZyZSZ3dzZ3ZyZSZ3dzZ3ZyZSZ3dzZ3ZyZSZ3dzZ3ZyZSZ3dzZ3ZyZSZ3dzZ3ZyZSZ3dzZ3ZyZSZ3dzZ3ZyZSZ3dzZ3ZyZSZ3dzZ3ZyZSZ3dzZ3ZyZSZ3dzZ3ZyZSZ3dzZ3ZyZSZ3dzZ3ZyZSZ1pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/i6U9KY2vbeY67fW9T8/giphy.gif'
+const celebrateGif = 'https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExNHpueG56Z3dzZ3dzZ3dzZ3dzZ3dzZ3dzZ3dzZ3dzZ3dzZ3dzZ3ZSZ3dzZ3ZyZSZ3dzZ3ZyZSZ3dzZ3ZyZSZ3dzZ3ZyZSZ3dzZ3ZyZSZ3dzZ3ZyZSZ3dzZ3ZyZSZ3dzZ3ZyZSZ3dzZ3ZyZSZ3dzZ3ZyZSZ3dzZ3ZyZSZ3dzZ3ZyZSZ3dzZ3ZyZSZ3dzZ3ZyZSZ3dzZ3ZyZSZ3dzZ3ZyZSZ3dzZ3ZyZSZ3dzZ3ZyZSZ3dzZ3ZyZSZ3dzZ3ZyZSZ3dzZ3ZyZSZ3dzZ3ZyZSZ3dzZ3ZyZSZ3dzZ3ZyZSZ3dzZ3ZyZSZ3dzZ3ZyZSZ3dzZ3ZyZSZ3dzZ3ZyZSZ3dzZ3ZyZSZ3dzZ3ZyZSZ3dzZ3ZyZSZ3dzZ3ZyZSZ3dzZ3ZyZSZ3dzZ3ZyZSZ3dzZ3ZyZSZ3dzZ3ZyZSZ3dzZ3ZyZSZ3dzZ3ZyZSZ3dzZ3ZyZSZ3dzZ3ZyZSZ3dzZ3ZyZSZ3dzZ3ZyZSZ3dzZ3ZyZSZ3dzZ3ZyZSZ3dzZ3ZyZSZ3dzZ3ZyZSZ3dzZ3ZyZSZ3dzZ3ZyZSZ3dzZ3ZyZSZ3dzZ3ZyZSZ3dzZ3ZyZSZ3dzZ3ZyZSZ3dzZ3ZyZSZ3dzZ3ZyZSZ3dzZ3ZyZSZ3dzZ3ZyZSZ3dzZ3ZyZSZ3dzZ3ZyZSZ3dzZ3ZyZSZ3dzZ3ZyZSZ3dzZ3ZyZSZ3dzZ3ZyZSZ3dzZ3ZyZSZ3dzZ3ZyZSZ3dzZ3ZyZSZ3dzZ3ZyZSZ3dzZ3ZyZSZ3dzZ3ZyZSZ3dzZ3ZyZSZ3dzZ3ZyZSZ3dzZ3ZyZSZ3dzZ3ZyZSZ3dzZ3ZyZSZ3dzZ3ZyZSZ3dzZ3ZyZSZ3dzZ3ZyZSZ3dzZ3ZyZSZ3dzZ3ZyZSZ3dzZ3ZyZSZ3dzZ3ZyZSZ3dzZ3ZyZSZ3dzZ3ZyZSZ1pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/LMcAtvIgeLtoLpP7O1/giphy.gif'
 </script>
 
 <template>
   <div class="valentine-container">
     <!-- Floating Hearts Background -->
     <div class="hearts-background">
-      <div
+      <div 
         v-for="heart in hearts" 
         :key="heart.id" 
         class="floating-heart"
@@ -62,7 +62,8 @@ const celebrateGif = 'https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExNHpueG56Z
     <div class="content-wrapper">
       <div v-if="!isAccepted" class="proposal-state">
         <div class="gif-container">
-          <img :src="beggingGif" alt="Begging" class="gif-display" />
+          <!-- Using direct i.giphy.com links which are more stable -->
+          <img src="https://i.giphy.com/i6U9KY2vbeY67fW9T8.gif" alt="Begging" class="gif-display" />
         </div>
         <h1>Will you be my Valentine?</h1>
         <div class="button-group">
@@ -80,7 +81,7 @@ const celebrateGif = 'https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExNHpueG56Z
 
       <div v-else class="celebration-state">
         <div class="gif-container">
-          <img :src="celebrateGif" alt="Celebration" class="gif-display success" />
+          <img src="https://i.giphy.com/LMcAtvIgeLtoLpP7O1.gif" alt="Celebration" class="gif-display success" />
         </div>
         <h1 class="bounce">Yay! See you on the 14th! ❤️</h1>
         <p class="love-text">I love you so much! 🌹</p>
